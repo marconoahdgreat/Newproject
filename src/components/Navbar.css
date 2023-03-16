@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&family=Roboto+Mono:wght@200&display=swap");
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-family: "Roboto Mono", monospace;
+  border-bottom: solid 1px rgba(128, 128, 128, 0.295);
+  background-color: black;
+}
+.Title {
+  display: flex;
+  align-items: center;
+}
+.Navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.Title {
+  color: white;
+}
+.Title h2:hover {
+  color: gray;
+}
+
+.NavLinks {
+  padding-left: 10px;
+  font-size: small;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+.NavLinks:hover {
+  color: gray;
+}
+.MobileView {
+  display: none;
+}
+@media (max-width: 600px) {
+  .MobileView {
+    display: flex;
+  }
+  .Navdiv {
+    display: none;
+  }
+}
