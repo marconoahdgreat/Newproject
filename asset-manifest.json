@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/Newproject/static/css/main.8dad8a55.css",
-    "main.js": "/Newproject/static/js/main.ccdd4bda.js",
+    "main.css": "/Newproject/static/css/main.c3147252.css",
+    "main.js": "/Newproject/static/js/main.918cce5e.js",
     "static/media/t3.jpg": "/Newproject/static/media/t3.6db4db380096da40ffe6.jpg",
     "static/media/t5.jpg": "/Newproject/static/media/t5.0a98d8b3441392551b76.jpg",
-    "static/media/About-Us.jpg": "/Newproject/static/media/About-Us.10caf57976a0d5af8a0e.jpg",
     "static/media/t4.webp": "/Newproject/static/media/t4.8e5335231e0033df3335.webp",
     "static/media/model.webp": "/Newproject/static/media/model.4d202e74fae4a5dc19aa.webp",
     "static/media/kendall.jpg": "/Newproject/static/media/kendall.f8df29313c4fbfe269fe.jpg",
     "static/media/tshirt.jpeg": "/Newproject/static/media/tshirt.e176af7b7ea8a00012bb.jpeg",
     "static/media/t1.jpg": "/Newproject/static/media/t1.2099462d086078dda7bf.jpg",
     "static/media/t2.avif": "/Newproject/static/media/t2.5c63ac30556d3f09ac34.avif",
-    "static/media/about2.jpg": "/Newproject/static/media/about2.2199d2392eaa501eb20a.jpg",
     "static/media/model2.webp": "/Newproject/static/media/model2.1e56b540f6a514e6e53f.webp",
     "index.html": "/Newproject/index.html",
-    "main.8dad8a55.css.map": "/Newproject/static/css/main.8dad8a55.css.map",
-    "main.ccdd4bda.js.map": "/Newproject/static/js/main.ccdd4bda.js.map"
+    "main.c3147252.css.map": "/Newproject/static/css/main.c3147252.css.map",
+    "main.918cce5e.js.map": "/Newproject/static/js/main.918cce5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dad8a55.css",
-    "static/js/main.ccdd4bda.js"
+    "static/css/main.c3147252.css",
+    "static/js/main.918cce5e.js"
   ]
 }
