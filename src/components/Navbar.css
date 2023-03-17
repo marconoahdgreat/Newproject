@@ -6,7 +6,10 @@
   padding: 5px;
   font-family: "Roboto Mono", monospace;
   border-bottom: solid 1px rgba(128, 128, 128, 0.295);
-  background-color: black;
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 }
 .Title {
   display: flex;
@@ -19,21 +22,22 @@
   margin-right: 10px;
 }
 .Title {
-  color: white;
-}
-.Title h2:hover {
-  color: gray;
+  color: black;
 }
 
 .NavLinks {
-  padding-left: 10px;
-  font-size: small;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 10px;
+  text-align: center;
   text-decoration: none;
-  color: white;
-  font-weight: normal;
+  color: black;
+  font-weight: bold;
 }
+
 .NavLinks:hover {
-  color: gray;
+  border-bottom: ridge;
+  border-bottom-color: rgb(2, 182, 144);
 }
 .MobileView {
   display: none;
@@ -41,8 +45,25 @@
 @media (max-width: 600px) {
   .MobileView {
     display: flex;
+    margin-right: 10px;
   }
   .Navdiv {
     display: none;
+  }
+  .Navdiv2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+  }
+  .NavLinks {
+    color: black;
+    justify-content: left;
+  }
+  .NavLinks:hover {
+    color: black;
   }
 }
